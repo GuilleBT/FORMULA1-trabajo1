@@ -60,13 +60,18 @@ footer{
     background-color: black;
     margin-top: 50px;
 }
+.copy{
+    color: whitesmoke;
+    font-size: 20px;
+}
 .ulf{
     display: flex;
     flex-direction: row;
     list-style: none;
 }
 .lif{
-    font-size: 20px;
-    margin: 0 15px;
-    padding: 20px;
+    padding: 25px;
+}
+.lif a{
+    font-size: 25px;
 }
