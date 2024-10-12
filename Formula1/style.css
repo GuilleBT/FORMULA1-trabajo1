@@ -40,3 +40,6 @@ body{
     margin: 0 15px;
     text-transform:uppercase;
 }
+.imgmaclaren{
+    transform: scaleX(-1);
+}
