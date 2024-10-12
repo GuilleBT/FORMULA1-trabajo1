@@ -49,6 +49,9 @@ body{
     background-color: #15151e;
     transition: all .7s linear;
 }
+.litop{;
+    list-style: none;
+}
 footer{
     width: 100%;
     height: 12hv;
