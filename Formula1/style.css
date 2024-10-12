@@ -17,6 +17,26 @@ body{
     height: 120px;
     background-color: rgb(225, 06, 00);
 }
-li{
+.nav{
+    display: flex;
+    justify-content: space-around;
+
+    
+    margin: auto;
+    height: 100%;
+    align-items:center;
+}
+.logo{
+    width: 267px;
+    height: 189px;
+}
+.ul{
+    display: flex;
+    flex-direction: row;
     list-style: none;
+}
+.li{
+    font-size: 20px;
+    margin: 0 15px;
+    text-transform:uppercase;
 }
