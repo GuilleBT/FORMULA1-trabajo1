@@ -40,6 +40,14 @@ body{
     margin: 0 15px;
     text-transform:uppercase;
 }
+.imgferrari{
+    transform: scaleX(-1);
+    width: 300px;
+    height: 300px;
+}
 .imgmaclaren{
+    transform: scaleX(-1);
+}
+.imgwilliams{
     transform: scaleX(-1);
 }
