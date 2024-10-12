@@ -55,8 +55,22 @@ body{
     height: 90vh;
     background-color: #15151e;
     margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
+h1{
+    color: whitesmoke;
+    font-size: 5.5em;
+}
+#introduccion p{
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 100px;
+}
 .litop{;
     list-style: none;
 }
