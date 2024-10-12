@@ -1,16 +1,20 @@
+/*Estilos que se aplican en toda la página */
+
 *{
     margin: 0;
     box-sizing: border-box;
 }
 
+/*Estilos para que el modo de "scrollear" sea diferente */
 html{
     scroll-behavior: smooth;
 }
-
+/*Estilos que se aplican en el body */
 body{
     background: whitesmoke;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+/*Estilos que se aplican en en encabezado */
 .header{
     position: fixed;
     width: 100%;
@@ -50,6 +54,7 @@ body{
     background-color: #15151e;
     transition: all .7s linear;
 }
+/*Estilos que se aplican en el primer section */
 #introduccion{
     width: 100%;
     height: 90vh;
@@ -71,9 +76,11 @@ h1{
     font-size: 1.5em;
     margin-top: 100px;
 }
+/*Estilos que se aplica en la lista de pilotos con mas títulos */
 .litop{;
     list-style: none;
 }
+/*Estilos que se aplican en el pie de página */
 footer{
     width: 100%;
     height: 12hv;
